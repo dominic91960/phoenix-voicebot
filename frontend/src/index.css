@@ -32,3 +32,16 @@ input:focus {
   border: none;
   outline: none;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0e8cfd;
+  border-radius: 10px;
+}
